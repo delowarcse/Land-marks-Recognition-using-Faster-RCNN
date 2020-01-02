@@ -16,8 +16,8 @@ tmp = load(data_file,'LBT2');
 data = tmp.LBT2;
 %% Network training
 % Check if the network is existing
-if exist('lmFRC_SNet_02062018.mat','file')
-    load('lmFRC_SNet_02062018.mat','lmFRCNN')
+if exist('lmFRC_SNet_02062018_1.mat','file')
+    load('lmFRC_SNet_02062018_1.mat','lmFRCNN')
 else
     % If not, create the new network.
     % Set input layer, size should be similar to smallest object.
